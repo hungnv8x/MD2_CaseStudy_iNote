@@ -1,3 +1,5 @@
+<?php include_once "App/View/Layout/nav.php" ?>
+<h4 style="text-align: center">Create Note</h4>
 <form method="post">
     <div class="form-group">
         <label for="title">Title</label>

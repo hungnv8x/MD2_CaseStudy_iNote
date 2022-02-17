@@ -1,4 +1,5 @@
 <?php include_once "App/View/Layout/nav.php"?>
+<h4 style="text-align: center">Note list</h4>
 <a type="button" class="btn btn-success mb-3" href="index.php?page=note-create">Create</a>
 <table class="table">
     <thead>

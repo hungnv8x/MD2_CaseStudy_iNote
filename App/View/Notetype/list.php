@@ -1,4 +1,5 @@
 <?php include_once "App/View/Layout/nav.php" ?>
+<h4 style="text-align: center">NoteType list</h4>
 <a type="button" class="btn btn-success mb-3" href="index.php?page=notetype-create">Create</a>
 <table class="table">
     <thead>
