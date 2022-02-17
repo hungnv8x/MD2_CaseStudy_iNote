@@ -40,4 +40,9 @@ class NoteModel extends BaseModel
         $stmt->bindParam(4,$id);
         $stmt->execute();
     }
+    public function deleteNoteByTypeId($id)
+    {
+        $sql = "delete from $this->table where note_type_id =".$id;
+        $this->connect->query($sql);
+    }
 }

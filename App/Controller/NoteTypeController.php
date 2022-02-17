@@ -24,7 +24,7 @@ class NoteTypeController extends BaseController
 
     public function delete($id)
     {
-        $this->model->delete($id);
+        $this->model->deleteNoteType($id);
         header("location:index.php?page=notetype-list");
     }
 

@@ -23,4 +23,11 @@ class NoteTypeModel extends BaseModel
         $stmt->bindParam(3,$id);
         $stmt->execute();
     }
+
+    public function deleteNoteType($id)
+    {
+        $noteModel = new NoteModel();
+        $noteModel->deleteNoteByTypeId($id);
+        $this->delete($id);
+    }
 }
